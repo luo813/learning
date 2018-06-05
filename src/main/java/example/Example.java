@@ -17,6 +17,7 @@ public class Example {
 
 	@RequestMapping("/")
 	String home() {
+		
 		return "Home Page";
 	}
 }
